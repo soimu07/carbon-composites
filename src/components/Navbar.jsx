@@ -3,7 +3,7 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
+import { mainBody, repos } from "../editable-stuff/config.js";
 import { NavLink } from "./home/migration";
 
 const Navigation = React.forwardRef((props, ref) => {
@@ -27,19 +27,19 @@ const Navigation = React.forwardRef((props, ref) => {
   React.useEffect(() => {
     if (!navbarDimensions) return;
     navBottom - scrollPosition >= ref.current.offsetTop
-      ? setIsTop(false)
+      ? setIsTop(false)      
       : setIsTop(true);
   }, [navBottom, navbarDimensions, ref, scrollPosition]);
 
   return (
     <Navbar
       ref={navbarMenuRef}
-      className={`px-3 fixed-top  ${!isTop ? "navbar-white" : "navbar-transparent"
+      className={`px-3 fixed-top ${!isTop ? "navbar-white" : "navbar-transparent"
         }`}
       expand="lg"
     >
-      <Navbar.Brand className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
-        {`<${mainBody.firstName} />`}
+      <Navbar.Brand className={`navbar-brand ${!isTop ? "text-black" : "text-white" }`} href={process.env.PUBLIC_URL + "/#home"}>
+        {`<${mainBody.firstName + " " + mainBody.lastName} />`}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -53,34 +53,35 @@ const Navigation = React.forwardRef((props, ref) => {
 
             <NavLink
               href={process.env.PUBLIC_URL + "/#projects"}
+              className={`${!isTop ? "text-black" : "text-white" }`}
             >
               Projects
             </NavLink>
           )}
-          <NavLink
+          {/* <NavLink
             className="nav-item lead"
             href={about.resume}
             target="_blank"
             rel="noreferrer noopener"
           >
             Resume
-          </NavLink>
-          {about.show && (
+          </NavLink> */}
+          {/* {about.show && (
             <NavLink
               className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#aboutme"}
             >
               About
             </NavLink>
-          )}
-          {skills.show && (
+          )} */}
+          {/* {skills.show && (
             <NavLink
               className="nav-item lead"
               href={process.env.PUBLIC_URL + "/#skills"}
             >
               Skills
             </NavLink>
-          )}
+          )} */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
