@@ -5,14 +5,29 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { mainBody, repos } from "../editable-stuff/config.js";
 import { NavLink } from "./home/migration";
+import {HashLink} from 'react-router-hash-link'
+import { useLocation } from "react-router";
+import classNames from "classnames";
 
 const Navigation = React.forwardRef((props, ref) => {
+  const location = useLocation()
+  const isProjectsPage = location.pathname.includes('projects')
   // const { showBlog, FirstName } = config;
   const [isTop, setIsTop] = useState(true);
   const [scrollPosition, setScrollPosition] = useState(0);
   const navbarMenuRef = React.useRef();
   const navbarDimensions = useResizeObserver(navbarMenuRef);
   const navBottom = navbarDimensions ? navbarDimensions.bottom : 0;
+  const classes = classNames('navbar-brand', {
+    'text-black' : !isTop && !isProjectsPage,
+    'text-white' : isTop && !isProjectsPage,
+    'text-black' : isProjectsPage
+  })
+  const hashLinkClasses = classNames('hashLink', {
+    'text-black' : !isTop && !isProjectsPage,
+    'text-white' : isTop && !isProjectsPage,
+    'text-black' : isProjectsPage || location.hash.includes('projects')
+  })
   useScrollPosition(
     ({ prevPos, currPos }) => {
       if (!navbarDimensions) return;
@@ -30,7 +45,6 @@ const Navigation = React.forwardRef((props, ref) => {
       ? setIsTop(false)      
       : setIsTop(true);
   }, [navBottom, navbarDimensions, ref, scrollPosition]);
-
   return (
     <Navbar
       ref={navbarMenuRef}
@@ -38,7 +52,7 @@ const Navigation = React.forwardRef((props, ref) => {
         }`}
       expand="lg"
     >
-      <Navbar.Brand className={`navbar-brand ${!isTop ? "text-black" : "text-white" }`} href={process.env.PUBLIC_URL + "/#home"}>
+      <Navbar.Brand className={classes} href={process.env.PUBLIC_URL + "/#home"}>
         {`<${mainBody.firstName + " " + mainBody.lastName} />`}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
@@ -51,12 +65,12 @@ const Navigation = React.forwardRef((props, ref) => {
           } */}
           {repos.show && (
 
-            <NavLink
-              href={process.env.PUBLIC_URL + "/#projects"}
-              className={`${!isTop ? "text-black" : "text-white" }`}
+            <HashLink
+              to={process.env.PUBLIC_URL + "/#projects"}
+              className={hashLinkClasses}
             >
               Projects
-            </NavLink>
+            </HashLink>
           )}
           {/* <NavLink
             className="nav-item lead"

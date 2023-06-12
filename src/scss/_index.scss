@@ -125,7 +125,36 @@ code {
 }
 
 .stickyFooter {
+  z-index: 999;
   position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.hashLink {
+  text-decoration: none;
+}
+
+.projectDetailsContainer{
+  background-color: red;
+  height: 50%;
+  // background-color: #e9ecef;
+}
+
+// .columnContainer{
+//   display: flex;
+//   justify-content: center;
+//   flex-direction: column;
+// }
+
+.imagesContainer {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  min-height: 70%;
+  position: relative;
+}
+
+.imagesGallery {
+  width: inherit;
 }

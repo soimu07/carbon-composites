@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
+    "classnames": "^2.3.2",
     "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
@@ -18,12 +19,14 @@
     "react-photo-album": "^2.2.2",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
+    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-spring-lightbox": "^1.7.1",
     "react-typist-component": "^1.0.3",
     "sass": "^1.54.3",
     "typescript": "^4.7.4",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^3.11.0"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -35,8 +38,8 @@
     "custom-deploy": "node pages.js"
   },
   "engines": {
-    "npm": "^8.11.0",
-    "node": "^18.13.0"
+    "npm": "^9.5.1",
+    "node": "^18.16.0"
   },
   "eslintConfig": {
     "extends": [
