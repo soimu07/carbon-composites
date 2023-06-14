@@ -4,7 +4,6 @@ import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { mainBody, repos } from "../editable-stuff/config.js";
-import { NavLink } from "./home/migration";
 import {HashLink} from 'react-router-hash-link'
 import { useLocation } from "react-router";
 import classNames from "classnames";
