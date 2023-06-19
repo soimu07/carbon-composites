@@ -1,8 +1,6 @@
 import React from "react";
 import { useLocation } from "react-router";
 import Container from "react-bootstrap/Container";
-import { getInTouch } from "../editable-stuff/config";
-
 
 const Footer = (props) => {
   const location = useLocation()
