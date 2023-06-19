@@ -6,10 +6,10 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   // gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Custom",
+  firstName: "Shoimu",
   middleName: "",
   lastName: "Composites",
-  message: " Șoiom custom carbon fiber composites ",
+  message: "07",
   // icons: [
   //   {
   //     image: "fa-github",
@@ -73,39 +73,39 @@ const repos = {
 };
 
 // SKILLS SECTION
-const skills = {
-  show: true,
-  heading: "Skills",
-  hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
-  ],
-  softSkills: [
-    { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
-  ],
-};
+// const skills = {
+//   show: true,
+//   heading: "Skills",
+//   hardSkills: [
+//     { name: "Python", value: 90 },
+//     { name: "SQL", value: 75 },
+//     { name: "Data Structures", value: 85 },
+//     { name: "C/C++", value: 65 },
+//     { name: "JavaScript", value: 90 },
+//     { name: "React", value: 65 },
+//     { name: "HTML/CSS", value: 55 },
+//     { name: "C#", value: 80 },
+//   ],
+//   softSkills: [
+//     { name: "Goal-Oriented", value: 80 },
+//     { name: "Collaboration", value: 90 },
+//     { name: "Positivity", value: 75 },
+//     { name: "Adaptability", value: 85 },
+//     { name: "Problem Solving", value: 75 },
+//     { name: "Empathy", value: 90 },
+//     { name: "Organization", value: 70 },
+//     { name: "Creativity", value: 90 },
+//   ],
+// };
 
 // GET IN TOUCH SECTION
-// const getInTouch = {
-//   show: true,
-//   heading: "Get In Touch",
-//   message:
-//     "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-//   email: "hashirshoaeb@gmail.com",
-// };
+const getInTouch = {
+  show: true,
+  heading: "Get In Touch",
+  message:
+    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+  email: "hashirshoaeb@gmail.com",
+};
 
 // const experiences = {
 //   show: false,
@@ -134,6 +134,6 @@ export {
   mainBody,
   // about,
   repos,
-  // getInTouch,
+  getInTouch,
   // experiences,
 };

@@ -27,7 +27,7 @@ const MainBody = React.forwardRef(
             aria-label="Projects"
           >
             Projects
-          </a>
+          </a>          
         </Container>
       </Jumbotron>
     );

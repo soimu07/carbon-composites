@@ -132,6 +132,10 @@ code {
 
 .hashLink {
   text-decoration: none;
+  padding-left: 10px;
+}
+.hashLink:visited {
+  color: black;
 }
 
 .projectDetailsContainer{

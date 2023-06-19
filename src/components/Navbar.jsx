@@ -18,14 +18,12 @@ const Navigation = React.forwardRef((props, ref) => {
   const navbarDimensions = useResizeObserver(navbarMenuRef);
   const navBottom = navbarDimensions ? navbarDimensions.bottom : 0;
   const classes = classNames('navbar-brand', {
-    'text-black' : !isTop && !isProjectsPage,
+    'text-black' : (!isTop && !isProjectsPage) || isProjectsPage,
     'text-white' : isTop && !isProjectsPage,
-    'text-black' : isProjectsPage
   })
   const hashLinkClasses = classNames('hashLink', {
-    'text-black' : !isTop && !isProjectsPage,
+    'text-black' : (!isTop && !isProjectsPage) || (isProjectsPage || location.hash.includes('projects')),
     'text-white' : isTop && !isProjectsPage,
-    'text-black' : isProjectsPage || location.hash.includes('projects')
   })
   useScrollPosition(
     ({ prevPos, currPos }) => {
@@ -63,13 +61,20 @@ const Navigation = React.forwardRef((props, ref) => {
             </NavLink>
           } */}
           {repos.show && (
-
             <HashLink
               to={process.env.PUBLIC_URL + "/#projects"}
               className={hashLinkClasses}
             >
               Projects
-            </HashLink>
+            </HashLink>            
+          )}
+           {repos.show && (
+            <HashLink 
+              to={process.env.PUBLIC_URL + "/#contact"}
+              className={hashLinkClasses}
+            >
+              Contact
+            </HashLink>            
           )}
           {/* <NavLink
             className="nav-item lead"

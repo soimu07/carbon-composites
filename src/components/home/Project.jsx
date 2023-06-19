@@ -128,6 +128,7 @@ export const projectsArray = [
   id: 'Dacia 1300 Hood',
   name: 'Dacia 1300 Hood',
   description: 'Original product code: NaN',
+  longDescription:'Weight reduction: 15kg',
   images: [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227452/CarbonComposites/Banner/Screenshot_2023-06-08_152453_v3lpcm.png',

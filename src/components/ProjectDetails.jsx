@@ -40,6 +40,7 @@ const ProjectDetails = React.forwardRef((props, ref) => {
                                         </li>
                                     ))}
                                 </ul>
+                                <div className='overflowWrap'>{(!project.longDescription) ? "" : project.longDescription } </div>
                                 <Lightbox
                                     open={index >= 0}
                                     index={index}
