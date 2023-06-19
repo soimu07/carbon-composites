@@ -22,6 +22,7 @@ const ProjectDetails = React.forwardRef((props, ref) => {
     return (
         <div className="projectDetailsContainer">
         <Jumbotron
+            className='d-flex'
             fluid
             id="project-details"
         >
@@ -31,7 +32,7 @@ const ProjectDetails = React.forwardRef((props, ref) => {
                         <div className="rounded d-flex flex-column">
                             <div className='text-center' as="h5">{project.name} </div>
                             <div className="container d-flex flex-column h-50">
-                                <div className=''>{(!project.description) ? "" : project.description } </div>
+                                <div className='overflowWrap'>{(!project.description) ? "" : project.description } </div>
                                 <ul className="image-gallery">
                                     {project.images.map((image, index) => (
                                         <li key={index} onClick={() => setIndex(index)}>

@@ -5,7 +5,32 @@ import Row from "react-bootstrap/Row";
 import ProjectCard from "./ProjectCard";
 
 
-export const projectsArray = [{
+export const projectsArray = [
+  {
+    id: '46632328686',
+    name: 'R1150GS Cover top',
+    description: 'Original product code: 46632328686',
+    images: [
+      {
+        src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687158298/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_iw7fo1.jpg',
+        // thumbnail:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
+        // width: 600,
+        // height: 800
+      },
+      {
+        src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
+        // thumbnail:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
+        // width: 600,
+        // height: 800
+      },
+      {
+        src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
+        // thumbnail:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
+        // width: 600,
+        // height: 800
+      }],
+  },
+  {
   id: '11147652127',
   name: 'R1150GS Cover, starter motor',
   description: 'Original product code: 11147652127',
@@ -85,24 +110,7 @@ export const projectsArray = [{
     }
   ],
 },
-{
-  id: '46632328686',
-  name: 'R1150GS Cover top',
-  description: 'Original product code: 46632328686',
-  images: [
-    {
-      src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-      thumbnail:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-      // width: 600,
-      // height: 800
-    },
-    {
-      src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-      thumbnail:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-      // width: 600,
-      // height: 800
-    }],
-},
+
 {
   id: '71607652330',
   name: 'R1150GS Set hand protector',
@@ -143,7 +151,7 @@ export const projectsArray = [{
 {
   id: 'Dacia 1300 Spoiler',
   name: 'Dacia 1300 Spoiler',
-  description: 'Original product code: Nan',
+  description: 'Original product code: NaN',
   images: [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686230619/CarbonComposites/Banner/20230424_092015_ocuhaq.jpg',
@@ -161,7 +169,7 @@ const Project = ({heading}) => {
   
   return (
     <div className="projectsBackground">
-    <Jumbotron fluid id="projects">
+    <Jumbotron fluid id="projects" className='d-flex'>
       <div className="m-0">
         <h2 className="display-4 pb-5 text-center">{heading}</h2>
         <Row className="d-flex">
