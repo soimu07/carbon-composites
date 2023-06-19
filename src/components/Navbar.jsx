@@ -49,7 +49,7 @@ const Navigation = React.forwardRef((props, ref) => {
         }`}
       expand="lg"
     >
-      <Navbar.Brand className={classes} href={process.env.PUBLIC_URL + "/#home"}>
+      <Navbar.Brand className={classes} href={"/#home"}>
         {`<${mainBody.firstName + " " + mainBody.lastName} />`}
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
@@ -57,12 +57,12 @@ const Navigation = React.forwardRef((props, ref) => {
         <Nav className="navbar-nav mr-auto">
           {/* {
             <NavLink className="nav-item lead">
-              <Link to={process.env.PUBLIC_URL + "/blog"}>Blog</Link>
+              <Link to={"/blog"}>Blog</Link>
             </NavLink>
           } */}
           {repos.show && (
             <HashLink
-              to={process.env.PUBLIC_URL + "/#projects"}
+              to={"/#projects"}
               className={hashLinkClasses}
             >
               Projects
@@ -70,7 +70,7 @@ const Navigation = React.forwardRef((props, ref) => {
           )}
            {repos.show && (
             <HashLink 
-              to={process.env.PUBLIC_URL + "/#contact"}
+              to={"/#contact"}
               className={hashLinkClasses}
             >
               Contact
@@ -87,7 +87,7 @@ const Navigation = React.forwardRef((props, ref) => {
           {/* {about.show && (
             <NavLink
               className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
+              href={"/#aboutme"}
             >
               About
             </NavLink>
@@ -95,7 +95,7 @@ const Navigation = React.forwardRef((props, ref) => {
           {/* {skills.show && (
             <NavLink
               className="nav-item lead"
-              href={process.env.PUBLIC_URL + "/#skills"}
+              href={"/#skills"}
             >
               Skills
             </NavLink>
