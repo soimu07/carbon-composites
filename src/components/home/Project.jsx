@@ -18,13 +18,13 @@ export const projectsArray = [
         // height: 800
       },
       {
-        src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
+        src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687158298/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_iw7fo1.jpg',
         // thumbnail:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
         // width: 600,
         // height: 800
       },
       {
-        src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
+        src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687158298/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_iw7fo1.jpg',
         // thumbnail:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
         // width: 600,
         // height: 800
