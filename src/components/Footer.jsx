@@ -14,7 +14,7 @@ const Footer = (props) => {
   };
   return (
     <footer style={bgStyle} className={location.pathname.includes('projects') ? 'mt-auto py-5 text-center stickyFooter' : 'mt-auto py-5 text-center'}>
-      <Container>        
+      <Container className="fontFamilyMonospace">        
         <div id='contact'>
           <h1>{contact.heading}</h1>
           <h3>{contact.message}</h3>

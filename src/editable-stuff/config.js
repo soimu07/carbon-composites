@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Shoimu",
   middleName: "",
   lastName: "Composites",
-  message: "07",
+  message: "Custom",
   // icons: [
   //   {
   //     image: "fa-github",
@@ -67,7 +67,7 @@ const mainBody = {
 const repos = {
   show: true,
   heading: "Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "", //i.e."johnDoe12Gh"
   reposLength: 10,
   specificRepos: [],
 };
@@ -102,9 +102,8 @@ const repos = {
 const getInTouch = {
   show: true,
   heading: "Get In Touch",
-  message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+  message: "",
+  email: "",
 };
 
 // const experiences = {

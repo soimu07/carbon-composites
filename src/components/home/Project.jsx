@@ -108,7 +108,7 @@ const Project = ({heading}) => {
     <div className="projectsBackground">
     <Jumbotron fluid id="projects" className='d-flex'>
       <div className="m-0">
-        <h2 className="display-4 pb-5 text-center">{heading}</h2>
+        <h2 className="display-4 pb-5 text-center fontFamilyMonospace">{heading}</h2>
         <Row className="d-flex">
           {projectsArray.length
             ? projectsArray.map((project, index) => (

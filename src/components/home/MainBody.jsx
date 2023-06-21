@@ -11,8 +11,8 @@ const MainBody = React.forwardRef(
         id="home"
         className="banner title bg-black text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
-        <Container className="text-center">
-          <h1 ref={ref} className="display-1">
+        <Container className="text-center fontFamilyMonospace">
+          <h1 ref={ref} className="display-1 fontFamilyFantasy">
             {title}
           </h1>
           <Typist>
@@ -21,7 +21,7 @@ const MainBody = React.forwardRef(
             </div>
           </Typist>
           <a
-            className="btn btn-outline-light btn-lg "
+            className="btn btn-outline-light btn-lg  "
             href="#projects"
             role="button"
             aria-label="Projects"
