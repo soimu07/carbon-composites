@@ -45,16 +45,17 @@ const Navigation = React.forwardRef((props, ref) => {
   return (
     <Navbar
       ref={navbarMenuRef}
-      className={`px-3 fixed-top ${!isTop ? "navbar-white" : "navbar-transparent"
+      className={`px-3 fixed-top navbarContainer ${!isTop ? "navbar-white" : "navbar-transparent"
         }`}
       expand="lg"
     >
       <Navbar.Brand className={classes} href={"/#home"}>
         {`<${mainBody.firstName + " " + mainBody.lastName} />`}
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className={`toggler ${!isTop ? "navbar-light" : "navbar-dark"
+        }`}  />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="navbar-nav mr-auto">
+        <Nav className="navbar-nav mr-auto ">
           {/* {
             <NavLink className="nav-item lead">
               <Link to={"/blog"}>Blog</Link>

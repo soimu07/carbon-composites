@@ -13,22 +13,15 @@ export const projectsArray = [
     images: [
       {
         src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687158298/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_iw7fo1.jpg',
-        // thumbnail:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-        // width: 600,
-        // height: 800
       },
       {
-        src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687158298/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_iw7fo1.jpg',
-        // thumbnail:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-        // width: 600,
-        // height: 800
+        src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687336842/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-21_114023_hqwo9s.jpg',
       },
       {
-        src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687158298/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_iw7fo1.jpg',
-        // thumbnail:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-        // width: 600,
-        // height: 800
-      }],
+        src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687336842/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-21_114000_niu99b.jpg',
+      },     
+
+      ],
   },
   {
   id: '11147652127',
@@ -37,77 +30,13 @@ export const projectsArray = [
   images: [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686224916/CarbonComposites/R1150GS/COVER%2C%20STARTER%20MOTOR%2011147652127/20230219_120744_chm1mr.jpg',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686224916/CarbonComposites/R1150GS/COVER%2C%20STARTER%20MOTOR%2011147652127/20230219_120744_chm1mr.jpg',
-      // width: 320,
-      // height: 240,
-
     },
     {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-      // width: 600,
-      // height: 800,
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687337044/CarbonComposites/R1150GS/COVER%2C%20STARTER%20MOTOR%2011147652127/Screenshot_2023-06-21_114320_otvzi8.jpg',
     },
     {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
-      // width: 800,
-      // height: 600,
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687337044/CarbonComposites/R1150GS/COVER%2C%20STARTER%20MOTOR%2011147652127/Screenshot_2023-06-21_114258_yt9yqh.jpg',
     },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686224916/CarbonComposites/R1150GS/COVER%2C%20STARTER%20MOTOR%2011147652127/20230219_120744_chm1mr.jpg',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686224916/CarbonComposites/R1150GS/COVER%2C%20STARTER%20MOTOR%2011147652127/20230219_120744_chm1mr.jpg',
-      // width: 600,
-      // height: 800,
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-      // width: 600,
-      // height: 800,
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
-      // width: 800,
-      // height: 600,
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686224916/CarbonComposites/R1150GS/COVER%2C%20STARTER%20MOTOR%2011147652127/20230219_120744_chm1mr.jpg',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686224916/CarbonComposites/R1150GS/COVER%2C%20STARTER%20MOTOR%2011147652127/20230219_120744_chm1mr.jpg',
-      // width: 600,
-      // height: 800,
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-      // width: 600,
-      // height: 800,
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
-      thumbnail:  'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
-      // width: 320,
-      // height: 240,
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686224916/CarbonComposites/R1150GS/COVER%2C%20STARTER%20MOTOR%2011147652127/20230219_120744_chm1mr.jpg',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686224916/CarbonComposites/R1150GS/COVER%2C%20STARTER%20MOTOR%2011147652127/20230219_120744_chm1mr.jpg',
-      // width: 600,
-      // height: 800,
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686225847/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_vlmkvh.png',
-      // width: 600,
-      // height: 800,
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
-      // width: 800,
-      // height: 600,
-    }
   ],
 },
 
@@ -119,8 +48,6 @@ export const projectsArray = [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
       thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
-      // width: 800,
-      // height: 600
     }
   ],
 },
@@ -132,10 +59,11 @@ export const projectsArray = [
   images: [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227452/CarbonComposites/Banner/Screenshot_2023-06-08_152453_v3lpcm.png',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227452/CarbonComposites/Banner/Screenshot_2023-06-08_152453_v3lpcm.png',
-      // width: 800,
-      // height: 600
-    }],
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687337619/CarbonComposites/Banner/Screenshot_2023-06-21_115322_fueuov.jpg',
+    },
+  ],
 },
 {
   id: '46637671732',
@@ -144,10 +72,20 @@ export const projectsArray = [
   images: [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686226622/CarbonComposites/R1150GS/COVERING%20RIGHT%2046637671732/20230309_163316_euwswp.jpg',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686226622/CarbonComposites/R1150GS/COVERING%20RIGHT%2046637671732/20230309_163316_euwswp.jpg',
-      // width: 800,
-      // height: 600
-    }],
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687337295/CarbonComposites/R1150GS/COVERING%20RIGHT%2046637671732/Screenshot_2023-06-21_114728_so0zln.jpg',
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687337294/CarbonComposites/R1150GS/COVERING%20RIGHT%2046637671732/Screenshot_2023-06-21_114642_qs9s0x.jpg',
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687337295/CarbonComposites/R1150GS/COVERING%20RIGHT%2046637671732/Screenshot_2023-06-21_114702_fx6u2o.jpg',
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687337294/CarbonComposites/R1150GS/COVERING%20RIGHT%2046637671732/Screenshot_2023-06-21_114742_cdfdhk.jpg',
+    },
+  ],
 },
 {
   id: 'Dacia 1300 Spoiler',
@@ -157,8 +95,6 @@ export const projectsArray = [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686230619/CarbonComposites/Banner/20230424_092015_ocuhaq.jpg',
       thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686230619/CarbonComposites/Banner/20230424_092015_ocuhaq.jpg',
-      // width: 800,
-      // height: 600
     }],
 }]  
 

@@ -31,7 +31,7 @@ const ProjectDetails = React.forwardRef((props, ref) => {
                     <Col md={12} className="w-100">
                         <div className="rounded d-flex flex-column">
                             <div className='text-center' as="h5">{project.name} </div>
-                            <div className="container d-flex flex-column h-50">
+                            <div className="container d-flex flex-column">
                                 <div className='overflowWrap'>{(!project.description) ? "" : project.description } </div>
                                 <ul className="image-gallery">
                                     {project.images.map((image, index) => (

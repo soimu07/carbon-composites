@@ -24,18 +24,20 @@ const App = () => {
   const titleRef = React.useRef();
 
   return (
-    <BrowserRouter basename={"/"}>
-      {navBar.show && <Navbar ref={titleRef} />}
-      <Routes>
-        <Route
-          path="/projects/:projectId"
-          exact
-          element={<ProjectDetails ref={titleRef} title="projectDetails" />}
-        />
-        <Route path="/" exact element={<Home ref={titleRef} />} />
-      </Routes>
-      <Footer></Footer>
-    </BrowserRouter>
+    <div className="appContainer">
+      <BrowserRouter basename={"/"}>
+        {navBar.show && <Navbar ref={titleRef} />}
+        <Routes>
+          <Route
+            path="/projects/:projectId"
+            exact
+            element={<ProjectDetails ref={titleRef} title="projectDetails" />}
+          />
+          <Route path="/" exact element={<Home ref={titleRef} />} />
+        </Routes>
+        <Footer></Footer>
+      </BrowserRouter>
+    </div>
   );
 };
 
