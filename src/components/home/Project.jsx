@@ -10,6 +10,8 @@ export const projectsArray = [
     id: '46632328686',
     name: 'R1150GS Cover top',
     description: 'Original product code: 46632328686',
+    longDescription:'Made out of 3 infused layers of carbon fiber 210g/m2',
+    weightReduction:'Weight reduction: around 240g',
     images: [
       {
         src:'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687158298/CarbonComposites/R1150GS/Windscreen%20Cluster%20cover%2046632328686%20COVER%2CTOP/Screenshot_2023-06-08_150245_iw7fo1.jpg',
@@ -27,6 +29,8 @@ export const projectsArray = [
   id: '11147652127',
   name: 'R1150GS Cover, starter motor',
   description: 'Original product code: 11147652127',
+  longDescription:'Made out chopped carbon fiber.',
+  weightReduction:'Weight reduction: around 25g',
   images: [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686224916/CarbonComposites/R1150GS/COVER%2C%20STARTER%20MOTOR%2011147652127/20230219_120744_chm1mr.jpg',
@@ -44,18 +48,21 @@ export const projectsArray = [
   id: '71607652330',
   name: 'R1150GS Set hand protector',
   description: 'Original product code: 71607652330',
+  longDescription:'Made out of 2 layers of infused carbon fiber 210g/m2 into the part.',
+  weightReduction:'Weight reduction: around 25g',
+
   images: [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
     }
   ],
 },
 {
   id: 'Dacia 1300 Hood',
   name: 'Dacia 1300 Hood',
-  description: 'Original product code: NaN',
-  longDescription:'Weight reduction: 15kg',
+  description: 'Original product code: Couldn`t be found',
+  longDescription:'My 1st big project, hand laminated with lots of complications, I will never try something like this again. The structure on the back and the hood are each made out of 3 layers of carbon fiber 210g/m2.',
+  weightReduction:'Weight reduction: 15kg',
   images: [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227452/CarbonComposites/Banner/Screenshot_2023-06-08_152453_v3lpcm.png',
@@ -69,6 +76,8 @@ export const projectsArray = [
   id: '46637671732',
   name: 'R1150GS COVERING RIGHT',
   description: 'Original product code: 46637671732',
+  longDescription:'My 1st even carbon fiber parts, hand laminated. Both are attached by 3D printed clips',
+  weightReduction:'Weight reduction: 2 layers: 43g / 4layers : -2g',
   images: [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686226622/CarbonComposites/R1150GS/COVERING%20RIGHT%2046637671732/20230309_163316_euwswp.jpg',
@@ -90,11 +99,11 @@ export const projectsArray = [
 {
   id: 'Dacia 1300 Spoiler',
   name: 'Dacia 1300 Spoiler',
-  description: 'Original product code: NaN',
+  description: 'Original product code: Non-existent',
+  longDescription:'Work in progress',
   images: [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686230619/CarbonComposites/Banner/20230424_092015_ocuhaq.jpg',
-      thumbnail: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686230619/CarbonComposites/Banner/20230424_092015_ocuhaq.jpg',
     }],
 }]  
 
