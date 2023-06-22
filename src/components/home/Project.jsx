@@ -48,7 +48,7 @@ export const projectsArray = [
   id: '71607652330',
   name: 'R1150GS Set hand protector',
   description: 'Original product code: 71607652330',
-  longDescription:'Made out of 2 layers of infused carbon fiber 210g/m2 into the part.',
+  longDescription:'Made out of 2 layers of infused carbon fiber 210g/m2 straight into the part without a mold.',
   weightReduction:'Weight reduction: around 25g',
 
   images: [
@@ -76,7 +76,7 @@ export const projectsArray = [
   id: '46637671732',
   name: 'R1150GS COVERING RIGHT',
   description: 'Original product code: 46637671732',
-  longDescription:'My 1st even carbon fiber parts, hand laminated. Both are attached by 3D printed clips',
+  longDescription:'My 1st even carbon fiber parts, hand laminated. Both are attached by 3D printed clips. I`ve tinted the clear coat on the first one as a test for the Dacia hood project.',
   weightReduction:'Weight reduction: 2 layers: 43g / 4layers : -2g',
   images: [
     {
@@ -98,13 +98,27 @@ export const projectsArray = [
 },
 {
   id: 'Dacia 1300 Spoiler',
-  name: 'Dacia 1300 Spoiler',
+  name: 'Dacia 1300 Spoiler | Work in progress...',
   description: 'Original product code: Non-existent',
-  longDescription:'Work in progress',
+  longDescription:'Handmade from scratch, infused chopped carbon fibers.',
+  weightReduction:'Weight around 1kg.',
   images: [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686230619/CarbonComposites/Banner/20230424_092015_ocuhaq.jpg',
-    }],
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687417697/CarbonComposites/Banner/Screenshot_2023-06-22_100751_rvepb8.jpg',
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687417697/CarbonComposites/Banner/Screenshot_2023-06-22_100605_go67zt.jpg',
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687417697/CarbonComposites/Banner/Screenshot_2023-06-22_100445_itq9zj.jpg',
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687417697/CarbonComposites/Banner/Screenshot_2023-06-22_100534_ytenye.jpg',
+    },
+  ],
 }]  
 
 const Project = ({heading}) => {
