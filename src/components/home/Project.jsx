@@ -50,11 +50,16 @@ export const projectsArray = [
   description: 'Original product code: 71607652330',
   longDescription:'Made out of 2 layers of infused carbon fiber 210g/m2 straight into the part without a mold.',
   weightReduction:'Weight reduction: around 25g',
-
   images: [
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
-    }
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687514780/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-23_130551_j67xut.jpg',
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687514780/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-23_130529_rhqers.jpg',
+    },
   ],
 },
 {
@@ -93,6 +98,12 @@ export const projectsArray = [
     },
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687337294/CarbonComposites/R1150GS/COVERING%20RIGHT%2046637671732/Screenshot_2023-06-21_114742_cdfdhk.jpg',
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687514897/CarbonComposites/R1150GS/COVERING%20RIGHT%2046637671732/Screenshot_2023-06-23_130310_lt5csm.jpg',
+    },
+    {
+      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687514898/CarbonComposites/R1150GS/COVERING%20RIGHT%2046637671732/Screenshot_2023-06-23_130329_nxgltq.jpg',
     },
   ],
 },
