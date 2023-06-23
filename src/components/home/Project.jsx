@@ -7,6 +7,48 @@ import ProjectCard from "./ProjectCard";
 
 export const projectsArray = [
   {
+    id: 'Dacia 1300 Spoiler',
+    name: 'Dacia 1300 Spoiler | Work in progress...',
+    description: 'Original product code: Non-existent',
+    longDescription:'Handmade from scratch, infused chopped carbon fibers.',
+    weightReduction:'Weight around 1kg.',
+    images: [
+      {
+        src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686230619/CarbonComposites/Banner/20230424_092015_ocuhaq.jpg',
+      },
+      {
+        src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687417697/CarbonComposites/Banner/Screenshot_2023-06-22_100751_rvepb8.jpg',
+      },
+      {
+        src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687417697/CarbonComposites/Banner/Screenshot_2023-06-22_100605_go67zt.jpg',
+      },
+      {
+        src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687417697/CarbonComposites/Banner/Screenshot_2023-06-22_100445_itq9zj.jpg',
+      },
+      {
+        src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687417697/CarbonComposites/Banner/Screenshot_2023-06-22_100534_ytenye.jpg',
+      },
+    ],
+  },  
+  {
+    id: '71607652330',
+    name: 'R1150GS Set hand protector',
+    description: 'Original product code: 71607652330',
+    longDescription:'Made out of 2 layers of infused carbon fiber 210g/m2 straight into the part without a mold.',
+    weightReduction:'Weight reduction: around 25g',
+    images: [
+      {
+        src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
+      },
+      {
+        src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687514780/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-23_130551_j67xut.jpg',
+      },
+      {
+        src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687514780/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-23_130529_rhqers.jpg',
+      },
+    ],
+  },
+  {
     id: '46632328686',
     name: 'R1150GS Cover top',
     description: 'Original product code: 46632328686',
@@ -40,25 +82,6 @@ export const projectsArray = [
     },
     {
       src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687337044/CarbonComposites/R1150GS/COVER%2C%20STARTER%20MOTOR%2011147652127/Screenshot_2023-06-21_114258_yt9yqh.jpg',
-    },
-  ],
-},
-
-{
-  id: '71607652330',
-  name: 'R1150GS Set hand protector',
-  description: 'Original product code: 71607652330',
-  longDescription:'Made out of 2 layers of infused carbon fiber 210g/m2 straight into the part without a mold.',
-  weightReduction:'Weight reduction: around 25g',
-  images: [
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686227274/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-08_152651_zitbbl.png',
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687514780/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-23_130551_j67xut.jpg',
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687514780/CarbonComposites/R1150GS/SET%20HAND%20PROTECTOR%2071607652330%20%2B%20Touratech%20extensions/Screenshot_2023-06-23_130529_rhqers.jpg',
     },
   ],
 },
@@ -107,30 +130,7 @@ export const projectsArray = [
     },
   ],
 },
-{
-  id: 'Dacia 1300 Spoiler',
-  name: 'Dacia 1300 Spoiler | Work in progress...',
-  description: 'Original product code: Non-existent',
-  longDescription:'Handmade from scratch, infused chopped carbon fibers.',
-  weightReduction:'Weight around 1kg.',
-  images: [
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1686230619/CarbonComposites/Banner/20230424_092015_ocuhaq.jpg',
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687417697/CarbonComposites/Banner/Screenshot_2023-06-22_100751_rvepb8.jpg',
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687417697/CarbonComposites/Banner/Screenshot_2023-06-22_100605_go67zt.jpg',
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687417697/CarbonComposites/Banner/Screenshot_2023-06-22_100445_itq9zj.jpg',
-    },
-    {
-      src: 'https://res.cloudinary.com/dt3kx30lt/image/upload/v1687417697/CarbonComposites/Banner/Screenshot_2023-06-22_100534_ytenye.jpg',
-    },
-  ],
-}]  
+]  
 
 const Project = ({heading}) => {
   const navigate = useNavigate ()
