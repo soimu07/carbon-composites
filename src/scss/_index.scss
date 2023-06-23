@@ -225,6 +225,10 @@ code {
   cursor: pointer;
 }
 
+.titleContainer{
+  font-size: 90px;
+}
+
 @media (max-aspect-ratio: 1/1) {
   li {
     height: 30vh;
@@ -234,5 +238,18 @@ code {
 @media (max-height: 480px) {
   li {
     height: 80vh;
-  }
+  } 
 }
+@media (max-width: 991px){
+  .titleContainer{
+    padding: 0;
+    font-size: 60px;
+  }  
+}
+@media (max-width: 480px){
+  .titleContainer{
+    padding: 0;
+    font-size: 40px;
+  }  
+}
+

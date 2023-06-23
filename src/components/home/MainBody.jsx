@@ -12,9 +12,9 @@ const MainBody = React.forwardRef(
         className="banner title bg-black text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >
         <Container className="text-center fontFamilyMonospace">
-          <h1 ref={ref} className="display-1 fontFamilyFantasy">
+          <div ref={ref} className="fontFamilyFantasy titleContainer">
             {title}
-          </h1>
+          </div>
           <Typist>
             <div className="lead typist">
               {message}
