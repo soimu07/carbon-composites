@@ -34,7 +34,7 @@ export const projectsArray = [
     id: '71607652330',
     name: 'R1150GS Set hand protector',
     description: 'Original product code: 71607652330',
-    longDescription:'Made out of 2 layers of infused carbon fiber 210g/m2 straight into the part without a mold.',
+    longDescription:'Made out of 2 layers of infused carbon fiber straight into the part without a mold.',
     weightReduction:'Weight reduction: around 25g',
     images: [
       {
@@ -52,7 +52,7 @@ export const projectsArray = [
     id: '46632328686',
     name: 'R1150GS Cover top',
     description: 'Original product code: 46632328686',
-    longDescription:'Made out of 3 infused layers of carbon fiber 210g/m2',
+    longDescription:'Made out of 3 infused layers of carbon fiber.',
     weightReduction:'Weight reduction: around 240g',
     images: [
       {
@@ -89,7 +89,7 @@ export const projectsArray = [
   id: 'Dacia 1300 Hood',
   name: 'Dacia 1300 Hood',
   description: 'Original product code: Couldn`t be found',
-  longDescription:'My 1st big project, hand laminated with lots of complications, I will never try something like this again. The structure on the back and the hood are each made out of 3 layers of carbon fiber 210g/m2.',
+  longDescription:'My 1st big project, hand laminated with lots of complications. The structure on the back and the hood are each made out of 3 layers of carbon fiber.',
   weightReduction:'Weight reduction: 15kg',
   images: [
     {
