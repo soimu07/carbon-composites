@@ -10,7 +10,7 @@ const ProjectCard = ({ value, onClick }) => {
   } = value;
   
   return (
-    <Col md={4} onClick={onClick} className='mb-4 productCardContainer fontFamilyCursive'>
+    <Col md={4} onClick={onClick} className='mb-4 productCardContainer fontFamilyHelvetica'>
       <Card className="shadow-lg p-3 bg-white rounded h-100 d-flex">
       <Card.Title className='text-center' as="h5">{name} </Card.Title>
       <Card.Body className="d-flex flex-column h-100 ">         

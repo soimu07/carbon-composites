@@ -26,7 +26,7 @@ const ProjectDetails = React.forwardRef((props, ref) => {
             fluid
             id="project-details"
         >
-            <Container className="fontFamilyCursive fs-5" >
+            <Container className="fontFamilyHelvetica fs-5" >
                 <div ref={ref} >
                     <Col md={12} className="w-100">
                         <div className="rounded d-flex flex-column">
